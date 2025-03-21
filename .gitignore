@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Backend folder stuff
+backend/*.pdf          # Ignore all PDFs in the backend folder
+backend/.env           # Environment files
+backend/.env.local     # Local environment files
+go.mod                 # Go module file
+go.sum                 # Go checksum file
+backend/config/eduvise-bucket.json
